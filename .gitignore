@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs and runtime state
+logs/
+*.log
+*.jsonl
+memory/
+workspace/
+Code/
+notes.txt
+
+# Temporary
+temp/
+tmp/
+tts_cache/
+*.tmp
+
+# Model cache
+models/
+.cache/
+huggingface/
+torch_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+dist/
+build/
+generated/
+
+# Local scratch files
+_test*.py
+
+# OS
+Thumbs.db
+.DS_Store
